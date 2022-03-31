@@ -2,23 +2,23 @@ const repoBase = require('./repository-base');
 
 const connectionString = "./data/movies.json"
 
-exports.findAllMovies = () => {
+exports.findAll = () => {
   return repoBase.findAll(connectionString);
 };
 
-exports.findMovieById = (id) => {
+exports.findById = (id) => {
   return repoBase.findById(connectionString, id);
 };
 
-exports.createMovie = (movie) => {
+exports.create = (movie) => {
   return repoBase.create(connectionString, movie);
 };
 
-exports.updateMovie = (id, movie) => {
+exports.update = (id, movie) => {
   return repoBase.update(connectionString, id, movie);
 };
 
-exports.deleteMovie = (id) => {
+exports.delete = (id) => {
   return repoBase.deleteRecord(connectionString, id);
 };
 

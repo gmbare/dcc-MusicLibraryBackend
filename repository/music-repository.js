@@ -2,22 +2,22 @@ const repoBase = require('./repository-base');
 
 const connectionString = "./data/songs.json"
 
-exports.findAllSongs = () => {
+exports.findAll = () => {
   return repoBase.findAll(connectionString);
 };
 
-exports.findSongById = (id) => {
+exports.findById = (id) => {
   return repoBase.findById(connectionString, id);
 };
 
-exports.createSong = (song) => {
+exports.create = (song) => {
   return repoBase.create(connectionString, song);
 };
 
-exports.updateSong = (id, song) => {
+exports.update = (id, song) => {
   return repoBase.update(connectionString, id, song);
 };
 
-exports.deleteSong = (id) => {
+exports.delete = (id) => {
   return repoBase.deleteRecord(connectionString, id);
 };
