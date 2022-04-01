@@ -2,22 +2,22 @@ const repoBase = require('./repository-base');
 
 const connectionString = "./data/users.json"
 
-exports.findAllUsers = () => {
+exports.findAll = () => {
   return repoBase.findAll(connectionString);
 };
 
-exports.findUserById = (id) => {
+exports.findById = (id) => {
   return repoBase.findById(connectionString, id);
 };
 
-exports.createUser = (user) => {
+exports.create = (user) => {
   return repoBase.create(connectionString, user);
 };
 
-exports.updateUser = (id, user) => {
+exports.update = (id, user) => {
   return repoBase.update(connectionString, id, user);
 };
 
-exports.deleteUser = (id) => {
+exports.delete = (id) => {
   return repoBase.deleteRecord(connectionString, id);
 };

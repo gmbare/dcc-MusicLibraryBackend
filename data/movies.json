@@ -28,5 +28,11 @@
     "title": "Die Hard",
     "director": "John McTiernan",
     "genre": "Action"
+  },
+  {
+    "id": 6,
+    "title": "Spirited Away",
+    "director": "Studio Ghibli",
+    "genre": "Drama"
   }
 ]
