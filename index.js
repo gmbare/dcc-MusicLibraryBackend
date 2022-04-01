@@ -2,11 +2,13 @@
 const express = require('express');
 const repoContext = require('./repository/repository-wrapper');
 const ProductValidate = require('./middleware/product-validation.js')
+const cors = require('cors');
 const app = express();
 
 //Middleware
 app.use(express.json())
 app.use(express.urlencoded({extended:true}));
+app.use(cors())
 
 
 //Endpoints

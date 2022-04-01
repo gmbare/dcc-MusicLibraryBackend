@@ -41,7 +41,7 @@ function ProductValidate(req, res, next) {
             continue;
         }
         else {
-            return (res.status(403).send('Product Body not Valid!'));
+            return (res.status(403).send(`Product Body not Valid! Please ensure that your request to edit ${dir} matches the following\n${toString(properties)}`));
         }
     }
     return next();

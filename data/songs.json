@@ -33,11 +33,11 @@
   },
   {
     "id": 5,
-    "title": "Think For Yourself",
-    "album": "Rubber Soul",
-    "artist": "The Beatles",
-    "genre": "Folk Rock",
-    "releaseDate": "12/03/1965"
+    "title": "Stolen Dance",
+    "album": "sadnecessary",
+    "artist": "Milky Chance",
+    "genre": "Alternative Rock",
+    "releaseDate": "04/04/2013"
   },
   {
     "id": 6,
@@ -210,6 +210,14 @@
   {
     "id": 27,
     "title": "Sin Circus",
+    "album": "Unlike Pluto",
+    "artist": "Unlike Pluto",
+    "genre": "Alternative Rock",
+    "releaseDate": "08/24/2018"
+  },
+  {
+    "id": 28,
+    "title": "Oh Raven (sing me a song)",
     "album": "Unlike Pluto",
     "artist": "Unlike Pluto",
     "genre": "Alternative Rock",
