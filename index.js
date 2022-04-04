@@ -45,6 +45,14 @@ app.put("/api/:dir/:id",[ProductValidate], (req, res) => {
     return (res.status(201).send(updateProduct))
 });
 
+app.delete("/api/:dir/:id", (req, res) => {
+    const dir = req.params.dir;
+    const id = parseInt(req.params.id);
+    const updateProduct = repoContext[dir].delete(id);
+    return (res.status(201).send(updateProduct))
+});
+
+
 
 
 
